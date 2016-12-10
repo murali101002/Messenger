@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="emailHint">Email</string>
+    <string name="pwdHint">Password</string>
+    <string name="login">Login</string>
+    <string name="signUp">Sign Up</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="emailSignUp">Email</string>
+    <string name="pwdSignUp">Choose Password</string>
+    <string name="repPwdSignUp">Repeat Password</string>
+    <string name="signIn">SignIn</string>
+    <string name="cancel">Cancel</string>
+    <string name="facebook_app_id">900115053424034</string>
+    <string name="fb_login_protocol_scheme">fb900115053424034</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_back">Back</string>
+    <string name="type"> Type Message</string>
+    <string name="nothingToShow">No Conversations to show</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+</resources>

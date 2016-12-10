@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="android.com.messenger.Messenger">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/label"
+            android:text="abc"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:id="@+id/profile"
+            android:layout_gravity="center"
+            android:src="@drawable/profile_icon"
+            android:layout_height="30dp" />
+        <ImageView
+            android:layout_width="40dp"
+            android:id="@+id/logout"
+            android:layout_marginLeft="7dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logout"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/profilesList"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

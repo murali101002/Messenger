@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:id="@+id/profImage"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/profile_icon"
+        android:layout_height="60dp" />
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/profileName"
+    android:layout_gravity="center"
+    android:text="FName LName"
+    android:textSize="20dp"
+    android:textColor="@android:color/black"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_toRightOf="@+id/profImage"
+    android:layout_toEndOf="@+id/profImage" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="10dp"
+        android:visibility="invisible"
+        android:text="abc"
+        android:textSize="10dp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/unread"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/profileName"
+        android:layout_toEndOf="@+id/profileName"
+        android:layout_marginStart="90dp" />
+</RelativeLayout>
